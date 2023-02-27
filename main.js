@@ -43,7 +43,7 @@ function showWeather(data){  //En este caso fui descontracturando todo el objeto
 
     const content = document.createElement('div');
     content.innerHTML= `
-        <h5>Clima en ${name}</h5>
+        <h5 class="nameClima">Clima en ${name}</h5>
             <img src="http://openweathermap.org/img/wn/${arr.icon}@2x.png" alt="icon">
             <h2>${degress} °c </h2>
             <p>La temperatura maxima es ${max} °c</p>
